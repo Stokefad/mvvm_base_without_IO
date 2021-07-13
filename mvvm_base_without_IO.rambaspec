@@ -1,0 +1,20 @@
+# Template information section
+name: mvvm_base_without_IO
+summary: Default implementation of mvvm pattern
+author: Igor Naumenko
+version: 1.0.0
+license: MIT
+
+# The declarations for code files
+code_files:
+- {name: Router.swift, path: Code/MvvmModule/Router.swift.liquid}
+- {name: ViewController.swift, path: Code/MvvmModule/ViewController.swift.liquid}
+- {name: ViewModel.swift, path: Code/MvvmModule/ViewModel.swift.liquid}
+- {name: Components/ViewController.xib, path: Code/MvvmModule/Components/ViewController.xib.liquid}
+
+# The declarations for test files
+test_files:
+
+
+# Template dependencies
+dependencies:
